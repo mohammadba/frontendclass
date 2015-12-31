@@ -9,15 +9,17 @@
   font-weight: normal;
   font-style: normal;
 }
-* {
+body {
 	font-family: Roboto-Regular;
-	text-align: center;
 }
+.container {
+	text-align: center;	
+} 
 h1  {
 	font-size: 85px;
 	color:#ff4500;
 }
-h2	{
+.container h2	{
 	color:#ff4500;
 	font-size: 30px;
 	font-weight: 300;
@@ -28,26 +30,32 @@ h3  {
 	font-style:italic; 
 }
 .container {
+	width: 100% ;
 	background-color: #DCEEF0;
 }
 .container .top {
 	background-color: #fff;
 }
-li {
+.container li {
 	list-style: none;
 }
 span {
 	font-size: 55px;
 }
-p {
+.container p {
 	font-size: 12px;
 	width: 50%;
 	display: inline-block;
+	text-align: justify;
 }
 figure {
 	background-color: #842891;
 	color: #fff;
 }
-img {
+.container img {
 	width:8%;
+}
+li {
+	display: inline;
+	padding-right: 30px;
 }
