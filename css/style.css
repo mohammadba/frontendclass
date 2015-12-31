@@ -23,6 +23,7 @@ h1  {
 	color:#ff4500;
 	font-size: 30px;
 	font-weight: 300;
+	margin-bottom: 0;
 }
 h3  {
 	font-size: 30px;
@@ -31,20 +32,28 @@ h3  {
 }
 .container {
 	width: 100% ;
-	background-color: #DCEEF0;
+	background: url("../images/bg.jpg");
+	background-size: 3%;
 }
 .container .top {
 	background-color: #fff;
+	border: 2px solid #000;
+	border-left: none;
+
+}
+.container .down {
+	border-left: 2px solid #000;
+	padding: 20px 20px;
 }
 .container li {
 	list-style: none;
 }
-span {
-	font-size: 55px;
+.container span {
+	font-size: 85px;
 }
 .container p {
 	font-size: 12px;
-	width: 50%;
+	width: 80%;
 	display: inline-block;
 	text-align: justify;
 }
